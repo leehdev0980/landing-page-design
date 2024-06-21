@@ -1,0 +1,386 @@
+
+
+.my-background{
+    background-image: url(images/Health_2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    color:white;
+    height: 1450px;
+    width: auto;
+    background-position-x: 0px;
+    background-position-y: 0px;
+}
+
+.nav-link{
+    color: white;
+}
+
+.nav-link:hover{
+    color:rgb(127, 21, 226);
+}
+
+.nav-link--active{
+    color: rgb(156, 190, 47) !important;
+}
+
+.navbar-toggler{
+    color: rgb(31, 113, 31);
+    border: solid 3px;
+    border-color: rgb(31, 113, 31);
+}
+
+.navbar-toggler-icon{
+    color: white;
+
+}
+
+.dropdown-menu{
+    background-color: #351d5b;
+}
+
+.dropdown-item {
+    color: white !important; 
+  }
+  
+.dropdown-item:hover, .dropdown-item:focus {
+    color: rgb(127, 21, 226) !important; 
+    background-color: #351d5b;    
+}
+
+#navbarSupportedContent{
+    align-content: center;
+    text-align: center;
+    padding: 30px 0;
+}
+
+
+#content_p1{
+    line-gap-override: 15%;
+}
+.display-1{
+       
+    font-family: "Noto Sans Sogdian", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 56px;
+    font-weight:700;   
+    line-height: 60px; 
+    letter-spacing: 0.5px;
+    word-spacing: 8px;
+}
+.lead{
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 70px;
+    font-weight: light;
+    font-style: normal;    
+}
+#desc1{
+    font-size: 22px;
+    font-weight: lighter;
+}
+.nav-link{
+    padding-left: 65px;
+}
+
+#btn-a1, #btn-a2, #btn-a3, #btn-a4{
+    
+    padding: 10px 10px;
+    color: white;
+    border: 1px solid;
+    border-color: white;
+    text-align:center;
+    padding: 10px 10px;
+    width: 190px;
+    margin-left: 20px;
+}
+
+#products_heading{              /*Heading on section 2*/
+    color:rgb(68, 12, 121);
+    font-size: 40px;
+    font-family: lulo-clean-w01-one-bold, sans-serif;
+    font-weight: 900;
+    letter-spacing: 5px;
+    word-spacing: 20px;
+
+}
+
+#h_pt2{                             /*Small heading on section 2*/
+    color: rgb(95, 30, 124);
+    font-weight:900;
+    word-wrap: normal;
+}
+
+
+
+#p_pt2{                             /*Paragraph on section 2*/                 
+    color: black;
+    padding-top: 3px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    font-weight: lighter;
+    line-height: 140%;
+    letter-spacing: 0.5px;
+    word-wrap: normal;
+    max-width: 520px;
+}
+
+
+
+#btn-b1{
+    color: rgb(95, 30, 124);
+    border: 1px solid;
+    border-color: rgb(95, 30, 124);
+    padding: 8px 8px;
+    margin: 0px 2px 0px 0px;
+    width: 180px;
+    font-family: proxima-n-w01-reg,proxima-n-w05-reg,sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    letter-spacing: 0.1em;
+    text-align: center;
+}
+
+#btn-b2{
+    color: rgb(95, 30, 124);
+    border: 1px solid;
+    border-color: rgb(95, 30, 124);
+    padding: 8px 8px;
+    margin: 0px 2px 0px 0px;
+    width: 180px;
+    margin-left: 55px;
+    font-family: proxima-n-w01-reg,proxima-n-w05-reg,sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    letter-spacing: 0.1em;
+    text-align: center;
+    
+}
+
+#p3_desc_h1{                    /*Description first heading*/
+    font-size:24px;
+    color:rgb(95, 30, 124);
+}
+
+#p3_desc_h2{                    /*Description second heading*/
+    font-size: 24px;
+    color:rgb(95, 30, 124);
+
+}
+
+#p3_desc_p{                     /*Description paragraph*/
+    color: black;
+    line-height: 25px;
+    font-weight: light;
+}
+
+
+#btn-c1{                        /*For Payors button*/
+    color: rgb(95, 30, 124);
+    border: 1px solid;
+    border-color: rgb(95, 30, 124);
+    padding: 8px 8px;
+    margin: 0px 2px 0px 0px;
+    width: 180px;
+    font-family: proxima-n-w01-reg,proxima-n-w05-reg,sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    letter-spacing: 0.1em;
+    text-align: center;
+}
+
+#btn-c2{                        /*For Provider button*/
+    color: rgb(95, 30, 124);
+    border: 1px solid;
+    border-color: rgb(95, 30, 124);
+    padding: 8px 8px;
+    margin: 0px 2px 0px 0px;
+    width: 180px;
+    margin-left: 25px;
+    font-family: proxima-n-w01-reg,proxima-n-w05-reg,sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    letter-spacing: 0.1em;
+    text-align: center;
+}
+
+#p4_desc a{
+    color: rgb(95, 30, 124);
+    border: 1px solid;
+    border-color: rgb(95, 30, 124);
+    padding: 8px 8px;
+    margin: 0px 2px 0px 0px;
+    width: 180px;
+    font-family: proxima-n-w01-reg,proxima-n-w05-reg,sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    letter-spacing: 0.1em;
+    text-align: center;
+}
+
+#home_p5 h3{
+    color:rgb(85, 14, 155);
+    font-size: 25px;
+    padding-bottom: 30px;
+    font-weight: light;
+}
+
+#btn-e1{
+    color: rgb(95, 30, 124);
+    border: 1px solid;
+    border-color: rgb(95, 30, 124);
+    padding: 8px 8px;
+    margin: 0px 2px 0px 0px;
+    margin-top: 1rem;
+    width: 180px;
+    font-family: proxima-n-w01-reg,proxima-n-w05-reg,sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    letter-spacing: 0.1em;
+    text-align: center;
+}
+
+#home_p6 h3{
+    font-size: 36px;
+    color: #bada55;
+    font-weight: bolder;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+#home_p6 h4{
+    font-size: 25px;
+    color: #550e9b;
+    margin-bottom: 2rem;
+
+}
+
+#home_p6 a{
+    color: rgb(95, 30, 124);
+    border: 1px solid;
+    border-color: rgb(95, 30, 124);
+    padding: 8px 8px;
+    margin: 0px 2px 0px 0px;
+    margin-top: 1rem;
+    width: 180px;
+    font-family: proxima-n-w01-reg,proxima-n-w05-reg,sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    letter-spacing: 0.1em;
+    text-align: center;
+}
+
+.text-uppercase{
+    font-size: 40px;
+    color:#550e9b;
+    font-family: lulo-clean-w01-one-bold,sans-serif;
+    line-height: 1.4em;
+    letter-spacing: 8px;
+    word-spacing: 10px;
+    font-weight: bolder;
+}
+
+.card{
+    padding: 20px 10px;
+    border:none;
+    
+}
+
+.card h2{
+    font-family: lato-light,lato,sans-serif;
+    text-align: center;
+    font-size: 18px;
+    font-weight:bolder;
+}
+
+.card h4{
+    font-family: lato-light,lato,sans-serif;
+    text-align: center;
+    font-size: 18px;
+    font-weight: light;
+}
+
+.img-thumbnail{
+    background-color: #bada55;
+    padding-top: 0px;
+    padding-left: 5px;
+    padding-right:5px;
+    padding-bottom: 10px;
+}
+
+#home_p9 h1{
+    font-size: 40px;
+    color:#550e9b;
+    font-family: lulo-clean-w01-one-bold,sans-serif;
+    line-height: 1.4em;
+    letter-spacing: 8px;
+    word-spacing: 10px;
+    font-weight: bolder;
+}
+
+#home_p10{
+    background-image: url(images/Screenshot_Savannah_Informatics.png);
+    background-repeat: repeat-x;
+    background-size: cover;
+    background-attachment: scroll;
+    color:white;
+    height: 512px;
+    width: auto;
+}
+
+#home_p10 div{
+    padding-right: 15%;
+    padding-left: 15%;
+    padding-top: 120px;
+}
+
+#home_p10 h1{
+    letter-spacing: 10px;
+    font-size: 60px;
+    font-weight: bolder;
+    margin-bottom: 2rem;
+}
+
+#home_p10 p{
+    font-size: 16px;
+    font-weight: lighter;
+    line-height: 1.6em;
+    font-size: 22px;
+}
+
+#home_p11{
+    background-image: url(images/bgimage.png);
+    background-repeat: repeat-x;
+    background-size: cover;
+    background-attachment: scroll;
+    color:white;
+    height: 512px;
+    width: auto;
+}
+
+#btn-j1{
+    color: #550e9b;
+    background-color: #bada55;
+    padding: 8px 8px;
+    margin: 0px 2px 0px 0px;
+    margin-top: 1rem;
+    border: none;
+    width: 180px;
+    font-family: proxima-n-w01-reg,proxima-n-w05-reg,sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    letter-spacing: 0.1em;
+    text-align: center;
+
+}
+
+#btn-j1:hover{
+    color: white;
+    background-color: #550e9b;
+   
+}
+
+#p11_p{
+    font-size: 32px;
+}
