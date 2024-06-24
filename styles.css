@@ -20,7 +20,7 @@
     color:rgb(127, 21, 226);
 }
 
-.nav-link--active{
+.nav-link:active{
     color: rgb(156, 190, 47) !important;
 }
 
@@ -365,7 +365,10 @@
     padding: 8px 8px;
     margin: 0px 2px 0px 0px;
     margin-top: 1rem;
-    border: none;
+    width: 110px;
+    margin-left: 13px;
+    border: 0px solid;
+    border-radius: 0px;
     width: 180px;
     font-family: proxima-n-w01-reg,proxima-n-w05-reg,sans-serif;
     font-size: 14px;
@@ -378,9 +381,46 @@
 #btn-j1:hover{
     color: white;
     background-color: #550e9b;
+
    
+}
+
+#home_p11{
+    height:650px;
 }
 
 #p11_p{
     font-size: 32px;
+    font-weight: lighter;
+}
+
+hr{
+    color: white;
+    margin:3px 0px;
+}
+
+#form{
+    padding-right: 15%;
+    padding-left: 20%;
+    padding-top: 100px;
+    margin: 0px 90px;
+    width: 1300px;
+}
+
+#slot1, #slot2{
+    padding: 20px 20px;
+    border: 1px solid grey;
+    border-radius: 0px;
+}
+
+#slot3{
+    padding-top: 0px;
+    padding-left: 20px;
+    border: 1px solid grey;
+    border-radius: 0px;
+    height: 120px;
+}
+
+#contact_info, #business_hours{
+    margin: 50px 0px;
 }
